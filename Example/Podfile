@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HowzatAudienceSDK_Example' do
+  pod 'HowzatAudienceSDK', :path => '../'
+
+  target 'HowzatAudienceSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
