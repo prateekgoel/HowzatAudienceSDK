@@ -49,7 +49,6 @@
 		4EEBE36C8C3CAF1F16627126CEB5C499 /* HowzatAudienceSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HowzatAudienceSDK-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75B05309938124B7E640AFE8661420C3 /* Pods-HowzatAudienceSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HowzatAudienceSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7B03FCBF8C90227F629733D48443A457 /* Pods_HowzatAudienceSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowzatAudienceSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECE42574C35F555CF1106BF07D3155D /* Pods-HowzatAudienceSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HowzatAudienceSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		840FDD553E832FE8662B1D9D354F2BBE /* HowzatAudienceSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HowzatAudienceSDK.modulemap; sourceTree = "<group>"; };
 		86C0BD7C13798B1ACCBCC8D01D1330A0 /* HowzatAudienceSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HowzatAudienceSDK-prefix.pch"; sourceTree = "<group>"; };
@@ -66,7 +65,6 @@
 		D1A682312D3A2081B30BF8752BB688E4 /* HowzatAudienceSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HowzatAudienceSDK.debug.xcconfig; sourceTree = "<group>"; };
 		DE03FFECE107659ED0E2A56B56E00C62 /* HowzatAudienceSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HowzatAudienceSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0ED530844DC34B27D2F6DA746B1350 /* HowzatAudienceSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HowzatAudienceSDK-dummy.m"; sourceTree = "<group>"; };
-		F1FBA1D1F7BAFA5218227D4EA2335D95 /* Pods_HowzatAudienceSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowzatAudienceSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD533FEBFC603955BCB0FC1F57F228E /* Pods-HowzatAudienceSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HowzatAudienceSDK_Example.modulemap"; sourceTree = "<group>"; };
 		FBEE69DC37332F7C189EE5E86C7DA3D6 /* HowzatAudienceSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HowzatAudienceSDK-Info.plist"; sourceTree = "<group>"; };
 		FD86202A3FC4CA37FB3F601DA3D68B96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -155,8 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				DE03FFECE107659ED0E2A56B56E00C62 /* HowzatAudienceSDK.framework */,
-				7B03FCBF8C90227F629733D48443A457 /* Pods_HowzatAudienceSDK_Example.framework */,
-				F1FBA1D1F7BAFA5218227D4EA2335D95 /* Pods_HowzatAudienceSDK_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -287,7 +283,6 @@
 			);
 			name = "Pods-HowzatAudienceSDK_Example";
 			productName = "Pods-HowzatAudienceSDK_Example";
-			productReference = 7B03FCBF8C90227F629733D48443A457 /* Pods_HowzatAudienceSDK_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ED6382C1135BF62AA49378A9136B05E6 /* Pods-HowzatAudienceSDK_Tests */ = {
@@ -306,7 +301,6 @@
 			);
 			name = "Pods-HowzatAudienceSDK_Tests";
 			productName = "Pods-HowzatAudienceSDK_Tests";
-			productReference = F1FBA1D1F7BAFA5218227D4EA2335D95 /* Pods_HowzatAudienceSDK_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -323,7 +317,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -744,7 +738,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
