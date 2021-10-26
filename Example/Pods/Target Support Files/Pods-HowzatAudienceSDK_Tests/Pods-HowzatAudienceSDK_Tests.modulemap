@@ -1,0 +1,6 @@
+framework module Pods_HowzatAudienceSDK_Tests {
+  umbrella header "Pods-HowzatAudienceSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0304AEA3CEF9540F86B26087 /* Pods-HowzatAudienceSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowzatAudienceSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-HowzatAudienceSDK_Tests/Pods-HowzatAudienceSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1A91DB35FAF563F444CD1AF9 /* Pods_HowzatAudienceSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowzatAudienceSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A92289CB4DEAC4C867A19E0 /* HowzatAudienceSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HowzatAudienceSDK.podspec; path = ../HowzatAudienceSDK.podspec; sourceTree = "<group>"; };
+		1A92289CB4DEAC4C867A19E0 /* HowzatAudienceSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HowzatAudienceSDK.podspec; path = ../HowzatAudienceSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46216403EB0893D538EB2B63 /* Pods_HowzatAudienceSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowzatAudienceSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		473E81FFE1A323378399DBBA /* Pods-HowzatAudienceSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowzatAudienceSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-HowzatAudienceSDK_Example/Pods-HowzatAudienceSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HowzatAudienceSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowzatAudienceSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,8 +45,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6398AE111FEA6FFE854BFDC1 /* Pods-HowzatAudienceSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowzatAudienceSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-HowzatAudienceSDK_Example/Pods-HowzatAudienceSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8A6F1E381879E7DEF32BEF0E /* Pods-HowzatAudienceSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowzatAudienceSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HowzatAudienceSDK_Tests/Pods-HowzatAudienceSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AC037A9E5DF50F8C3B14D81C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DB720ADFBA60713071F46BDC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AC037A9E5DF50F8C3B14D81C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DB720ADFBA60713071F46BDC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				8A6F1E381879E7DEF32BEF0E /* Pods-HowzatAudienceSDK_Tests.debug.xcconfig */,
 				0304AEA3CEF9540F86B26087 /* Pods-HowzatAudienceSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JBG3VXXM65;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,10 +479,11 @@
 			baseConfigurationReference = 473E81FFE1A323378399DBBA /* Pods-HowzatAudienceSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JBG3VXXM65;
 				INFOPLIST_FILE = HowzatAudienceSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.howzat.audience.sdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -493,10 +495,11 @@
 			baseConfigurationReference = 6398AE111FEA6FFE854BFDC1 /* Pods-HowzatAudienceSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JBG3VXXM65;
 				INFOPLIST_FILE = HowzatAudienceSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.howzat.audience.sdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

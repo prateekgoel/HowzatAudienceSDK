@@ -1,0 +1,16 @@
+PODS:
+  - HowzatAudienceSDK (0.1.0)
+
+DEPENDENCIES:
+  - HowzatAudienceSDK (from `../`)
+
+EXTERNAL SOURCES:
+  HowzatAudienceSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HowzatAudienceSDK: 149bef57db56e563132c58b91c3d2cac374777a4
+
+PODFILE CHECKSUM: ae5ff3605078d5e548d0d87ba8657b1f0b5759f5
+
+COCOAPODS: 1.10.1
