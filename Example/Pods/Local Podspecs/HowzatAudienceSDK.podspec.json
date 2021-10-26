@@ -1,0 +1,28 @@
+{
+  "name": "HowzatAudienceSDK",
+  "version": "0.1.0",
+  "summary": "HowzatAudienceSDK by Howzat team",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jungleesubbu/HowzatAudienceSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jungleesubbu": "subrahmanyam@jungleegames.com"
+  },
+  "source": {
+    "git": "https://github.com/jungleesubbu/HowzatAudienceSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "HowzatAudienceSDK/Classes/**/*",
+  "exclude_files": "HowzatAudienceSDK/*.plist",
+  "dependencies": {
+    "Starscream": [
+      "~> 4.0.0"
+    ]
+  }
+}

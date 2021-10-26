@@ -1,0 +1,23 @@
+PODS:
+  - HowzatAudienceSDK (0.1.0):
+    - Starscream (~> 4.0.0)
+  - Starscream (4.0.4)
+
+DEPENDENCIES:
+  - HowzatAudienceSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Starscream
+
+EXTERNAL SOURCES:
+  HowzatAudienceSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HowzatAudienceSDK: 5e955fbbf795d0624bddaac6946a97be2c4d5566
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+
+PODFILE CHECKSUM: ae5ff3605078d5e548d0d87ba8657b1f0b5759f5
+
+COCOAPODS: 1.11.2

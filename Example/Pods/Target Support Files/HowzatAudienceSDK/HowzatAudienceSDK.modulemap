@@ -1,0 +1,6 @@
+framework module HowzatAudienceSDK {
+  umbrella header "HowzatAudienceSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
